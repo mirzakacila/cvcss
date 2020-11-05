@@ -1,0 +1,93 @@
+body
+{
+	background-image: url('wallpaper.jpg');
+  	background-size: cover;
+  	font-family: Arial;
+  	text-align: center;
+  	
+}
+.menu
+{
+	border-radius: 10px;
+	background-color: transparent;
+	color: black;
+ 	padding: 16px;
+  	font-size: 16px;
+  	border: none;
+  	cursor: pointer;
+}
+.menu{
+	position: relative;
+
+}
+.dd-menu
+{
+	border-radius: 10px;
+	display: none;
+	position: absolute;
+  	background-color: #f9f9f9;
+  	min-width: 160px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+}
+.dd-menu a{
+	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+}
+.menu a:hover
+{
+	border-radius: 10px;
+	background-color: silver;
+}
+.menu:hover .menu{
+	background-color: gray	;
+}
+.menu:hover .dd-menu
+{
+	display: block;
+}
+.contacts{
+	margin-top: 20px;
+}
+
+.fb
+{
+	border-radius: 30px;
+	background-color: white;
+}
+
+.lista
+{
+	text-align: center;
+	padding-right: 30px;
+	font-size: 25px;
+	padding-top: 5px;
+}		
+li{
+	padding: 2px;
+}
+
+.slika
+{
+	border-radius: 40px;
+	border: 10px solid transparent;
+}
+
+.slika1
+{
+	width:200px;
+	height:300px;
+	border: 10px solid transparent;
+	border-radius: 30px;
+
+
+}
+
+a
+{
+  text-decoration: none;
+}
+
+
